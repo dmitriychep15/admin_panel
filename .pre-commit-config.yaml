@@ -1,0 +1,8 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: tests
+        name: tests
+        description: running tests and flake8 linter checks
+        entry: bash tests.sh
+        language: system
